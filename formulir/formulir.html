@@ -4,7 +4,7 @@
 
  <head>
 
-  <title>Arif Puji Nugroho</title>
+  <title>Form RL-APN</title>
   <style>
     body {    
         background-image: url('./1.jpg');
@@ -33,7 +33,7 @@
 
      Nama Depan<br>
 
-     <input type="text" placeholder="First Name" name="firstname"/>
+     <input type="text" placeholder="First Name" name="firstname" required/>
 
     </p>
 
@@ -42,7 +42,7 @@
 
      Nama Belakang<br>
 
-     <input type="text" placeholder="Last Name" name="lastname">
+     <input type="text" placeholder="Last Name" name="lastname" required/>
 
     </p>
 
@@ -50,7 +50,7 @@
 
      Username<br>
 
-     <input type="text" placeholder="Username" name="username" />
+     <input type="text" placeholder="Username" name="username" required/>
 
     </p>
 
@@ -58,7 +58,7 @@
 
      Password<br>
 
-     <input type="password" placeholder="Password" name="password" />
+     <input type="password" placeholder="Password" name="password" required/>
 
     </p>
 
@@ -78,7 +78,7 @@
     
      Agama<br>
       
-     <select name="agama">
+     <select name="agama" required>
     
       <option>---Agama---</option>
                         
@@ -102,9 +102,9 @@
 
      Email<br>
 
-    <input type="text" placeholder="Email" name="useremail"> @
+    <input type="text" placeholder="Email" name="useremail" required/> @
     
-    <select name="email">
+    <select name="email" required>
     
      <option value="unystaff"> uny.ac.id</option>
                         
@@ -124,7 +124,7 @@
 
     <div>Tanggal Lahir</div>
 
-    <select name="Tanggal">
+    <select name="Tanggal" required>
 
      <option>--Tanggal--</option>
 
@@ -194,7 +194,7 @@
 
     </select>
 
-    <select name="bulan">
+    <select name="bulan" required>
 
     <option>--Bulan--</option>
 
@@ -224,7 +224,7 @@
 
     </select>
 
-    <select name="Tahun">
+    <select name="Tahun" required>
 
      <option>--Tahun--</option>
 
@@ -312,7 +312,7 @@
     
     Media sosial yang sering digunakan<br>
 
-    <select name="Media Sosial">
+    <select name="Media Sosial" required>
      
      <option value="Friendster">Friendster</option>
      
@@ -328,15 +328,23 @@
     
     </select>
     
-    <input type="text" placeholder="Media Sosial" name="user media sosial">
+    <input type="text" placeholder="Media Sosial" name="user media sosial" required/>
     
     </p>
+   
+    <p>
 
+     Nomer telpon yang bisa dihubungi<br>
+
+     <input type="tel" required/>
+
+    </p>
+    
     <p>
 
      Pas Foto Terbaru<br>
 
-     <input type="file">
+     <input type="file" required/>
 
     </p>
 
@@ -344,7 +352,7 @@
 
     <p>
         
-    <input type="checkbox">I Agree to Terms and Conditions.
+    <input type="checkbox" required/>I Agree to Terms and Conditions.
 
     </p>
 
