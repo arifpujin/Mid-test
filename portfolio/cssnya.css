@@ -239,7 +239,7 @@
 
 	}
 	.kolom1:hover{
-		border-color: 1px solid #fff;
+		border-color: 1px solid;
 		background-color: gray;
 		border-radius: 5px;
 		color: white;
@@ -256,7 +256,7 @@
 	}
 
 	.kolom2:hover{
-		border-color: 1px solid #fff;
+		border-color: 1px solid;
 		background-color: gray;
 		border-radius: 5px;
 		color: white;
