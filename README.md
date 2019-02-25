@@ -4,7 +4,7 @@
  <a href="https://arifpujin.com" target="_blank"><img width="73" src="https://github.com/arifpujin/Exersice1/blob/master/fotoarif.png" alt="Vektor Arif"></a></p>
 <br>
 
-<h1>First Web - Pemrograman Web </h1>
+<h1>Mid Test Web - Pemrograman Web </h1>
 Tugas Pembuatan Web tanpa Menggunakan Bootstrap
 <br>
 <ul>
